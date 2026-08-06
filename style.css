@@ -10,6 +10,8 @@
 
 h1 {
     color: var(--accent);
+    font-family: 'Lora', serif;
+    margin-left: 20px;
 }
 
 body {
@@ -25,6 +27,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 15px;
+    font-family: 'Libertinus Serif', serif;
 }
 
 .Socials a {
@@ -50,12 +53,4 @@ body {
 
 .Socials a:hover::after {
     width: 100%;
-}
-
-.Copyright {
-    position: absolute;
-    bottom: 10px;
-    font-size: 17px;
-    color: var(--text);
-    text-align: center;
 }
